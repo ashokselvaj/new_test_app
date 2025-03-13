@@ -10,7 +10,7 @@ best_doctors = []
 st.title("NPI App")
 input_time = st.time_input("Enter Survey Time", value=time(6, 0))
 
-df = pd.read_csv("/content/in.csv")
+df = pd.read_csv("dummy_npi_data.csv")
 
 # Convert "Login Time" and "Logout Time" to datetime
 df["Login Time"] = pd.to_datetime(df["Login Time"])
