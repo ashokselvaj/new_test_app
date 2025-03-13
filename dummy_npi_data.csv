@@ -999,12 +999,3 @@ NPI,State,Login Time,Logout Time,Usage Time (mins),Region,Speciality,Count of Su
 1000000997,CA,2025-03-08 18:44:00,2025-03-08 19:46:00,62,Northeast,Cardiology,1
 1000000998,NY,2025-03-08 17:21:00,2025-03-08 19:04:00,103,Midwest,Oncology,6
 1000000999,PA,2025-03-08 14:01:00,2025-03-08 14:54:00,53,West,Orthopedics,2
-Column Name,Description,,,,
-NPI,A Unique ID given to the doctors in US,,,,
-State,State of the Doctor(HCP),,,,
-Login Time,"Consider you have an app in which the Doctor takes the survey, Login time denotes the time in which the Doctor log in to the app to take the survey.",,,,
-Logout Time,"Consider you have an app in which the Doctor takes the survey, Logout time denotes the time in which the Doctor logs out of the survey.",,,,
-Usage Time (mins),Meaning how much does the doctor is active in the app in a day.,,,,
-Region,Denotes the Region of the Doctor,,,,
-Speciality,Denotes the Speciality of the Doctor,,,,
-Count of Survey Attempts,Denotes the no. of surveys that the Doctor had taken in the Past week.,,,,
